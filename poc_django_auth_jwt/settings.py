@@ -43,7 +43,7 @@ INSTALLED_APPS = [
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
-        "authentication.backends.JWTAuthentication"
+        "authentication.backend.JWTAuthentication",
     )
 }
 

@@ -28,3 +28,5 @@ class JWTAuthentication(authentication.BaseAuthentication):
         except Exception as e:
             print("Uncaught auth exception")
             print(e)
+
+        return super().authenticate(request)
